@@ -1,0 +1,427 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>My Profile</title>
+    <style>
+        /* =========================
+    BASIC
+    ========================= */
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #10101a;
+        color: white;
+
+        font-family: Arial, sans-serif;
+
+        line-height: 1.6;
+    }
+
+
+    /* =========================
+    CONTAINER
+    ========================= */
+
+    .container {
+        width: 90vw;
+
+        margin: 0 auto;
+    }
+
+
+    /* =========================
+    HEADER
+    ========================= */
+
+    .header {
+        text-align: center;
+
+        padding: 30px;
+
+        margin-bottom: 30px;
+
+        background-color: #1d1d30;
+    }
+
+    .logo {
+        font-size: 5vw;
+
+        letter-spacing: 5px;
+
+        text-transform: uppercase;
+
+        margin-bottom: 10px;
+    }
+
+    .welcome {
+        font-size: 18px;
+
+        letter-spacing: 2px;
+    }
+
+
+    /* =========================
+    PROFILE
+    ========================= */
+
+    .profile {
+        height: 70vh;
+
+        padding: 40px;
+
+        margin-bottom: 40px;
+
+        text-align: center;
+
+        background-color: #19192a;
+
+        border: 2px solid #33334d;
+    }
+
+
+    /* vmin */
+
+    .profile-img {
+        width: 30vmin;
+
+        height: 30vmin;
+
+        max-width: 300px;
+        max-height: 300px;
+
+        margin-bottom: 20px;
+
+        border-radius: 50%;
+
+        border: 5px solid #7c4dff;
+    }
+
+    .name {
+        font-size: 4vw;
+
+        letter-spacing: 3px;
+
+        text-transform: uppercase;
+
+        margin-bottom: 10px;
+    }
+
+    .job {
+        font-size: 2vmin;
+
+        color: #a78bfa;
+
+        letter-spacing: 2px;
+
+        margin-bottom: 20px;
+    }
+
+    .description {
+        width: 70%;
+
+        margin: 0 auto;
+
+        font-size: 18px;
+
+        line-height: 1.8;
+    }
+
+
+    /* =========================
+    INFORMATION
+    ========================= */
+
+    .information {
+        padding: 40px;
+
+        margin-bottom: 40px;
+
+        background-color: #19192a;
+
+        text-align: center;
+    }
+
+    .section-title {
+        font-size: 3vw;
+
+        letter-spacing: 4px;
+
+        text-transform: uppercase;
+
+        margin-bottom: 30px;
+    }
+
+    .info-box {
+        width: 70%;
+
+        margin: 0 auto;
+
+        padding: 25px;
+
+        background-color: #24243a;
+
+        font-size: 20px;
+
+        line-height: 2.5;
+    }
+
+
+    /* =========================
+    SKILLS
+    ========================= */
+
+    .skills {
+        padding: 40px;
+
+        margin-bottom: 40px;
+
+        background-color: #19192a;
+
+        text-align: center;
+    }
+
+    .skill {
+        width: 80%;
+
+        margin: 20px auto;
+
+        padding: 25px;
+
+        background-color: #24243a;
+
+        border: 1px solid #393957;
+    }
+
+    .skill h3 {
+        font-size: 25px;
+
+        letter-spacing: 2px;
+
+        text-transform: uppercase;
+
+        margin-bottom: 10px;
+    }
+
+    .skill p {
+        font-size: 16px;
+
+        line-height: 1.8;
+    }
+
+
+    /* =========================
+    ABOUT
+    ========================= */
+
+    .about {
+        padding: 50px;
+
+        margin-bottom: 40px;
+
+        background-color: #19192a;
+
+        text-align: center;
+    }
+
+    .about p {
+        width: 75%;
+
+        margin: 0 auto;
+
+        font-size: 18px;
+
+        line-height: 2;
+    }
+
+
+    /* =========================
+    FOOTER
+    ========================= */
+
+    .footer {
+        padding: 30px;
+
+        margin-top: 30px;
+
+        margin-bottom: 30px;
+
+        text-align: center;
+
+        background-color: #1d1d30;
+
+        font-size: 15px;
+
+        letter-spacing: 1px;
+    }
+
+
+    /* =========================
+    VMAX
+    ========================= */
+
+    .footer p {
+        font-size: 2vmax;
+    }
+    </style>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <!-- Header -->
+            <header class="header">
+
+                <h1 class="logo">MY PROFILE</h1>
+
+                <p class="welcome">
+                    Welcome To My Personal Website
+                </p>
+
+            </header>
+
+
+            <!-- Profile -->
+            <section class="profile">
+
+                <img
+                    class="profile-img"
+                    src="https://picsum.photos/400/400"
+                    alt="Profile Image"
+                >
+
+                <h2 class="name">
+                    Mohamed Badawy
+                </h2>
+
+                <p class="job">
+                    Front-End Developer
+                </p>
+
+                <p class="description">
+                    I am a beginner front-end developer who loves
+                    creating websites and learning HTML and CSS.
+                </p>
+
+            </section>
+
+
+            <!-- Information -->
+            <section class="information">
+
+                <h2 class="section-title">
+                    MY INFORMATION
+                </h2>
+
+                <div class="info-box">
+
+                    <p>
+                        <strong>Age:</strong> 18
+                    </p>
+
+                    <p>
+                        <strong>City:</strong> Egypt
+                    </p>
+
+                    <p>
+                        <strong>Job:</strong> Developer
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- Skills -->
+            <section class="skills">
+
+                <h2 class="section-title">
+                    MY SKILLS
+                </h2>
+
+                <div class="skill">
+
+                    <h3>HTML</h3>
+
+                    <p>
+                        Creating the structure of websites.
+                    </p>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <h3>CSS</h3>
+
+                    <p>
+                        Designing and styling web pages.
+                    </p>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <h3>UI Design</h3>
+
+                    <p>
+                        Creating simple and beautiful interfaces.
+                    </p>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <h3>Problem Solving</h3>
+
+                    <p>
+                        Finding solutions to programming problems.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- About -->
+            <section class="about">
+
+                <h2 class="section-title">
+                    ABOUT ME
+                </h2>
+
+                <p>
+                    My goal is to become a professional web developer.
+                    I am currently learning HTML and CSS and practicing
+                    by creating different websites. I believe that
+                    learning programming requires patience, practice,
+                    and solving many problems.
+                </p>
+
+            </section>
+
+
+            <!-- Footer -->
+            <footer class="footer">
+
+                <p>
+                    © 2026 My Profile - All Rights Reserved
+                </p>
+
+            </footer>
+
+        </div>
+
+    </body>
+    </html>
